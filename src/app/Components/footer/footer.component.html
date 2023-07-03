@@ -1,0 +1,46 @@
+
+
+  <div class="row pt-4 pb-4" style="background-color: #2d3436;">
+    <div class="col"></div>
+    <!--Hakkımızda Başlangıç-->
+    <div class="col-sm-3 col-md-3 text-white pb-5" >
+      <p><b>Hakkımızda</b></p>
+      <hr>
+      <p>Ufuk Bağlaç Otomotiv Fren Servis hizmeti veriyoruz. Aynı zamanda marka ve modele özel yedek parça satışı
+        yapılmaktadır.</p>
+    </div>
+    <!--Hakkımızda Bitiş-->
+  
+    <!--Sayfalar Başlangıç-->
+    <div class="col-sm-2 col-md-2 text-white pb-5">
+      <p><b>Sayfalar</b></p>
+      <hr>
+      <a class="alt" routerLink="/home">Anasayfa</a>
+      <br>
+      <a class="alt" routerLink="/aboutUs">Hakkımızda</a>
+      <br>
+      <a class="alt" routerLink="/contact">İletişim</a>
+    </div>
+    <!--Sayfalar Bitiş-->
+  
+    <!--İletişim Başlangıç-->
+    <div class="col-sm-3 col-md-3 text-white pb-5">
+      <p><b>İletişim</b></p>
+      <hr>
+      <p>info@ufukotofren.com.tr</p>
+      <p>5. Sanayi Sitesi, 7419/8. Sk. No:2/4, Bornova, İZMİR
+      </p>
+      <p>(0232) 479 56 16</p>
+      <p>0 530 790 3535</p>
+    </div>
+    <!--İletişim Bitiş-->
+  
+    <!--Logo başlangıç-->
+    <div class="col-sm-3 col-md-3 text-center" *ngFor="let logo of logo">
+      <br>
+      <img src="{{logo.logoUrl}}" alt="">
+    </div>
+    <!--Logo bitiş-->
+  </div>
+
+

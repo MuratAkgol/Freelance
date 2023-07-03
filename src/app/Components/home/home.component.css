@@ -1,0 +1,39 @@
+#resim-yazi {
+    color: #ffeaa7;
+    text-shadow: 5px 5px 5px #2d3436;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 320px) {
+    #resim-yazi {
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+}
+
+#sirket{
+    transition-duration:0.5s;
+}
+
+#sirket:hover {
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+#carousel{
+    height: 40vw; 
+    width: 100%;
+}
+@media (max-width:425px){
+    #carousel{
+        height: 70vw;
+        width: 100%;
+    }
+}

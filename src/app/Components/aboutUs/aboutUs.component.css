@@ -1,0 +1,11 @@
+#hakkimizda{
+    line-height: 200%;
+}
+
+@media (min-width: 2560px) {
+    #footer{
+      position: absolute;
+      bottom:0;
+     
+    }
+   }

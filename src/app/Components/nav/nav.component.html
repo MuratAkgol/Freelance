@@ -1,0 +1,32 @@
+ <div class="container-fulid">
+  <nav class="navbar navbar-expand-lg" style="background-color: #2980b9;">
+    <div class="container-fluid" *ngFor="let logo of logo">
+      <img routerLink="/home" src="{{logo.logoUrl}}" alt="Logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" routerLink="/home"><b>Anasayfa</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/aboutUs"><b>Hakkımızda</b></a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-white text-white" href="#hizmet"><b>Hizmetlerimiz</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#companies"><b>Yetkili Servisliklerimiz</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/contact"><b>İletişim</b></a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="btn btn-link rounded-5" href="tel:+90 530 790 3535" id="tel">7/24 Yol Yardım</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
